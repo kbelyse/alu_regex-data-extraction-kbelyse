@@ -1,0 +1,54 @@
+Regex Data Extraction
+
+A simple tool for extracting common data patterns from text files using regular expressions.
+
+What it does
+
+This script searches through text and finds:
+- Email addresses
+- URLs  
+- Phone numbers
+- Credit card numbers
+- Currency amounts
+- Time formats
+- HTML tags
+
+Getting started
+
+Clone the repo and run the script:
+
+
+git clone https://github.com/kbelyse/alu_regex-data-extraction-kbelyse.git
+cd alu_regex-data-extraction-kbelyse
+python3 regex_extractor.py
+
+
+To process your own files:
+
+python3 regex_extractor.py myfile.txt
+or
+
+python3 regex_extractor.py webpage.html
+
+Examples
+
+When you run the script, it'll show what it found:
+
+=== EXTRACTION RESULTS ===
+
+EMAIL matches (2 found):
+----------------------------------------
+  • user@example.com
+  • firstname.lastname@company.co.uk
+
+URL matches (2 found):
+----------------------------------------
+  • https://www.example.com
+  • https://subdomain.example.org/page
+
+
+Notes
+
+- Works with any text-based file
+- No extra libraries needed
+- Some patterns are focused on US formats (like phone numbers)

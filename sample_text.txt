@@ -1,0 +1,17 @@
+Contact Information:
+- Email: user@example.com
+- Alternative: firstname.lastname@company.co.uk
+- Website: https://www.example.com
+- Documentation: https://subdomain.example.org/page
+- Phone: (123) 456-7890
+- Alternative: 123-456-7890
+- Support: 123.456.7890
+
+Payment Information:
+- Credit Card: 1234 5678 9012 3456
+- Alternative: 1234-5678-9012-3456
+
+Website Code:
+<p>This is a paragraph</p>
+<div class="example">This is a div with a class</div>
+<img src="image.jpg" alt="description">
